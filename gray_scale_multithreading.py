@@ -45,9 +45,9 @@ for j in range(100,501,100):
     i = 0 
 
     start_bundle = time.time()
-    for img in allImages:
 
-        with concurrent.futures.ThreadPoolExecutor(max_workers=mthreads) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=mthreads) as executor:
+        for img in allImages:
             executor.submit(rgb_to_grayscale,img)
 
         if(i==j):
