@@ -1,2 +1,1 @@
-# 
-ImageProcessing-multithreading-python
+# ImageProcessing-multithreading-python
