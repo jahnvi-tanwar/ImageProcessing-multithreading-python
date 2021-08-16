@@ -6,11 +6,11 @@ Multithreading - Multithreading is defined as the ability of a processor to exec
 
 # Task Performed
 
-- For this experiment blocks of 100, 200, 300, 400 and 500 files were given as input.
-- upper_file() function defined in upper_file.py and multithreading_upper_file.py was used to convert each alphabet in the file from lower case to upper case. 
-- In upper_file.py program task was formed sequentially but in multithreading_upper_file.py the same task was performed with multithreading. To create threads ThreadPoolExecutor (from concurrent.futures module) was used. 
+- For this experiment blocks of 100, 200, 300, 400 and 500 image files were taken as input.
+- rgb_to_grayscale() function defined in gray_scale.py and multithreading_gray_scale.py was used to convert image in bgr format to grayscale using cvtColor() function of openCV module.
+- In gray_scale.py program task was formed sequentially but in multithreading_gray_scale.py the same task was performed with multithreading. To create threads ThreadPoolExecutor (from concurrent.futures module) was used. 
 - In main.py program task is performed multiple times varying number of threads each time. This is done to find the optimal number of threads which will perform the task in less time.
-- plot_threads.py file is used to plot number of thread vs time graph which is result of main.py program (reportBundle/report_bundle).
+- plot_thread.py file is used to plot number of thread vs time graph which is result of main.py program (Report/report).
 - plot_graph.py file is used to plot  number of files vs time double line graph comparing the result of task performed with multithreading and without multithreading.
 
 # Observations
@@ -44,7 +44,7 @@ Graph 1:
 
 ![alt text](https://github.com/jahnvi-tanwar/ImageProcessing-multithreading-python/blob/coder/Report/run1.png)
 
-  Optimal Number of threads = 13
+Optimal Number of threads = 6
 
 Table 2: Comparing execution time of capitalizing file text with multithreading and without multithreading while increasing the number of files by 100 
 
@@ -60,11 +60,11 @@ Number of Files | Time Taken Without Multithreading (s) | Time Taken With Multit
 
 Graph 2:
 
-![alt text](https://github.com/jahnvi-tanwar/Multithreading-python/blob/main/compare/compare.png)
+![alt text](https://github.com/jahnvi-tanwar/ImageProcessing-multithreading-python/blob/coder/Compare/Figure_1.png)
 
 # Findings:
 
 From graph 2 it is evident that the task performed using multithtreading takes less time. 
-<br/>Percent decrease in time : 41.01 %
+<br/>Percent decrease in time : 55.34 %
 
 
