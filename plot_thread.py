@@ -11,17 +11,13 @@ for line in data:
     threads.append(int(inst[0]))
     wall_time.append(float(inst[1]))
     
-
-plt.title("Wall time")
-plt.xlabel('Number of Files')
-plt.ylabel('Wall clock Time (sec)')
+    
 plt.xticks(np.arange(0, 21, 1)) 
 plt.yticks(np.arange(min(wall_time), max(wall_time), 10)) 
 
 
-plt.title("CPU utilisation")
 plt.xlabel('Number of threads')
-plt.ylabel('Time (sec)')
+plt.ylabel('Wall clock Time (sec)')
 
 plt.xticks(np.arange(0, 21, 1))
 plt.yticks(np.arange(int(min(wall_time)), int(max(wall_time))+101, 100))
