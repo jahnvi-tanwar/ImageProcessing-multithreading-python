@@ -42,7 +42,7 @@ Number of Active Threads | Time Taken (s)
 
 Graph 1:
 
-![alt text](https://github.com/jahnvi-tanwar/Multithreading-python/blob/main/reportBundle/Figure_1.png)
+![alt text](https://github.com/jahnvi-tanwar/ImageProcessing-multithreading-python/blob/coder/Report/run1.png)
 
   Optimal Number of threads = 13
 
