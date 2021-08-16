@@ -1,4 +1,4 @@
-# imageProcessing-multithreading-python
+# ImageProcessing-multithreading-python
 Grayscale conversion of multiple images using openCV. Completing the task faster with multithreading in python.
 
 # Key Concept
